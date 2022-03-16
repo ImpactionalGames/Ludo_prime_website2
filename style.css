@@ -1,0 +1,375 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo {
+    height: 65px;
+}
+
+.navbar {
+    background-color: #1F1B90 !important;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+.first {
+    background-color: #151d76;
+    margin-top: 85px;
+}
+
+.foot_first {
+    background-color: #151d76;
+    margin-top: 85px;
+}
+
+.ludo {
+    height: 480px;
+    margin-top: 24px;
+}
+
+.head1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    margin-bottom: 0px;
+}
+
+.head {
+    color: white;
+    font-size: 50px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    margin-bottom: 0px;
+}
+
+.foot_head {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    margin-bottom: 0px;
+}
+
+.foot_head2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}
+
+.head2 {
+    color: white;
+    font-size: 55px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.first1 {
+    margin-top: 120px;
+}
+
+.play {
+    background-color: #FFD842;
+    height: 70px;
+    width: 70%;
+    margin-top: 35px;
+    border-radius: 40px;
+    color: #1F1B90;
+    font-size: 30px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    transition: 1s;
+}
+
+.play2 {
+    background-color: #FFD842;
+    height: 70px;
+    width: 70%;
+    margin-top: 35px;
+    border-radius: 40px;
+    color: #1F1B90;
+    font-size: 30px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    transition: 1s;
+}
+
+.play2:hover {
+    transform: scale(1.1);
+}
+
+.play:hover {
+    transform: scale(1.1);
+}
+
+.second {
+    background-color: #1F1B90;
+}
+
+.fourth {
+    background-color: #1F1B90;
+}
+
+.imgsec2 {
+    height: 450px;
+}
+
+.imgsec3 {
+    height: 440px;
+}
+
+.second1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about {
+    font-size: 20px;
+    color: white;
+}
+
+.foot_text {
+    font-size: 17px;
+    color: white;
+}
+
+.third {
+    background-color: #151d76;
+    padding-bottom: 30px;
+}
+
+.third2 {
+    text-align: center;
+}
+
+.third1 {
+    text-align: right;
+}
+
+.third3 {
+    text-align: left;
+}
+
+.icon {
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 60%;
+    text-align: center !important;
+}
+
+.iconlow {
+    margin-left: auto;
+}
+
+.icon:hover {
+    border: 2px solid red;
+}
+
+.icons {
+    color: yellow;
+}
+
+.icons:hover {
+    color: white;
+}
+
+.features1 {
+    margin-top: 20px;
+}
+
+.features {
+    margin-top: 60px;
+}
+
+.feature_head {
+    color: white;
+    font-size: 18px;
+}
+
+.feature_text {
+    color: yellow;
+    font-size: 14px;
+}
+
+
+.type {
+    color: #0000;
+    background:
+        linear-gradient(-90deg, white 5px, #0000 0) 10px 0,
+        linear-gradient(white 0 0) 0 0;
+    background-size: calc(var(--n)*1ch) 200%;
+    -webkit-background-clip: padding-box, text;
+    background-clip: padding-box, text;
+    background-repeat: no-repeat;
+    animation:
+        b .7s infinite steps(1),
+        t calc(var(--n)*.3s) steps(var(--n)) forwards;
+}
+
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    border: 4px solid yellow;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #031131;
+}
+
+.logo2 {
+    height: 150px;
+}
+
+.foot {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.footico {
+    font-size: 30px;
+    color: white;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.ico {
+    margin-right: 12px;
+}
+
+.tc {
+    color: white;
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+.last {
+    color: white;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.paytm {
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 16px;
+}
+
+.contact2 {
+    margin-top: 10px;
+}
+
+.contact {
+    font-size: 20px;
+    color: white;
+}
+
+.mob {
+    display: none;
+}
+
+.deks {
+    display: block;
+}
+
+.card-img-top {
+    height: 200px;
+    overflow: hidden !important;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: azure;
+    text-decoration-line: none;
+}
+
+a:active {
+    color: azure;
+    text-decoration-line: none;
+}
+
+a:link {
+    color: azure;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: azure;
+    text-decoration-line: none;
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: #031448;
+}
+
+.faq {
+    padding-bottom: 30px;
+}
+
+.accordion-item {
+    background-color: #1f1b90 !important;
+}
+
+.question {
+    font-size: 18px;
+    color: rgb(8, 177, 233);
+}
+
+.accordion-button {
+    font-size: 18px;
+    background-color: #302bbb;
+    color: white;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(8, 177, 233) !important;
+    color: white;
+    box-shadow: none;
+}
+
+.accordian-button:hover {
+    background-color: rgb(8, 177, 233) !important;
+}
